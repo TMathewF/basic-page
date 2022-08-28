@@ -77,6 +77,9 @@ li {
     font-size: large;
     border: none;
 }
+.sign:hover {
+    cursor: pointer;
+}
 .random {
     font-size: 36px;
     font-weight: 900;
@@ -95,7 +98,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 .subtext {
     font-size: 18px;
@@ -106,10 +109,16 @@ li {
     width: 200px;
 }
 .container3 {
+    display: flex;
     height: 300px;
     background-color: #e5e7eb;
     padding: 50px;
+}
+.container4 {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 }
 .quote {
     font-size: 36px;
@@ -126,8 +135,8 @@ li {
 }
 .action1 {
     background-color: #3882f6;
-    border-radius: 20px;
-    height: 175px;
+    border-radius: 15px;
+    height: 170px;
     width: 1000px;
     display: block;
     margin: auto;
@@ -136,9 +145,35 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+    padding-top: 45px;
 }
-.sign {
+.sign1 {
+    width: 150px;
+    background-color: #3882f6;
     color: white;
     border-style: solid;
-    width: 250px;
+    border-color: white;
+    border-radius: 15px;
+    height: 45px;
+}
+.sign1:hover {
+    cursor: pointer;
+}
+.action3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.call {
+    color: white;
+}
+.call1 {
+    color: #e5e7eb;
+    margin-top: -20px;
+}
+.foot {
+    text-align: center;
+    color: #e5e7eb;
+    font-size: smaller;
 }
